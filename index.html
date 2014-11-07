@@ -3,75 +3,65 @@
 <head>
 	<meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Menu</title> 
+    <title>iArcMenu</title> 
     <link rel="stylesheet" type="text/css" href="./src/css/common.css" />
 </head>
 
 <body>
-<div id="arcMenu-content"></div>
+<div id="iArcMenu-content"></div>
 
 <script src="./src/js/iarcmenu.js"></script>
 <script>
     
     var list = [
         {
-            id: 0,
-            content: "百度大厦",
-            color: "#e74c3c",
+            content: "用户",
             callback: function() {
-                alert(this.children[0].innerHTML);
+                alert(this.innerHTML);
             }
         },
         {
-            id: 1,
-            content: "奎科大厦",
-            color: "#f1c40f",
+            content: "设置",
             callback: function() {
-                alert(this.children[0].innerHTML);
+                alert(this.innerHTML);
             }
         },
         {
-            id: 2,
-            content: "文思海辉",
-            color: "#2ecc71",
+            content: "朋友",
             callback: function() {
-               alert(this.children[0].innerHTML);
+                alert(this.innerHTML);
             }
         },
         {
-            id: 3,
-            content: "腾飞高科岭",
-            color: "#e74c3c",
+            content: "日志",
             callback: function() {
-                alert(this.children[0].innerHTML);
+                alert(this.innerHTML);
             }
         },
         {
-            id: 4,
-            content: "鹏寰大厦",
-            color: "#f1c40f",
+            content: "图片",
             callback: function() {
-                alert(this.children[0].innerHTML);
+                alert(this.innerHTML);
             }
         },
         {
-            id: 5,
-            content: "首创空间",
-            color: "#2ecc71",
+            content: "信息",
             callback: function() {
-                alert(this.children[0].innerHTML);
+                alert(this.innerHTML);
             }
         },
     ];
 
     var opt = {
         data: list,
-        dom: document.getElementById('arcMenu-content'),
+        dom: document.getElementById('iArcMenu-content'),
         type: 'arc',
         duration: 50,
-        rangeDegree: 120,
+        rangeDegree: 360,
         offsetDegree: 90,
         diffDist: 60,
+        distance: 100,
+        diameter: 50,
     };
 
     var arcMenu = new iArcMenu(opt);
