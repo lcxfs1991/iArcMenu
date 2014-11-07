@@ -1,0 +1,65 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+#arcMenu-content {
+	max-width: 300px;
+	height: 300px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #eee;
+}
+
+/*
+Basic Shape CSS
+*/
+.arcMenu-shape {
+	position: absolute;
+	margin-left: 125px;
+	margin-top: 125px;
+	height: 50px;
+	width: 50px;
+	line-height: 45px;
+	-webkit-border-radius: 2em 2em 2em 2em;
+	-moz-border-radius: 2em 2em 2em 2em;
+	border-radius: 2em 2em 2em 2em;
+	transition: 2s;
+	cursor: pointer;
+	font-size: 10px;
+}
+
+.arcMenu-shape div {
+	text-align: center;
+	vertical-align: middle;
+}
+
+.arcMenu-control {
+	position: absolute;
+	margin-left: 125px;
+	margin-top: 125px;
+	height: 50px;
+	width: 50px;
+	line-height: 45px;
+	-webkit-border-radius: 2em 2em 2em 2em;
+	-moz-border-radius: 2em 2em 2em 2em;
+	border-radius: 2em 2em 2em 2em;
+	cursor: pointer;
+	font-size: 10px;
+	background-color: #ffffff;
+}
+
+.arcMenu-control div {
+	text-align: center;
+	vertical-align: middle;
+}
+
+.arcMenu-control-on {
+
+	background: #ffffff url('../img/plus.png') no-repeat center center;
+}
+
+.arcMenu-control-off {
+
+	background: #ffffff url('../img/minus.png') no-repeat center center;
+}
