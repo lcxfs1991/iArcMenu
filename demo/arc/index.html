@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iArcMenu</title> 
+    <link rel="stylesheet" type="text/css" href="../../src/css/common.css" />
+    <link rel="stylesheet" type="text/css" href="./custom.css" />
+    <link rel="stylesheet" type="text/css" href="../public/sprite.css" />
+</head>
+
+<body>
+<div id="iArcMenu-content"></div>
+
+<script src="../../src/js/iarcmenu.js"></script>
+<script>
+    /* iArcMenu Initialization */
+    var list = [
+        {
+            // content: "用户",
+            class: 'icon icon-home3',
+            scale: 1.5,
+            callback: function() {
+                alert(this.innerHTML);
+            }
+        },
+        {
+            // content: "朋友",
+            class: 'icon icon-facebook2',
+            scale: 1.5,
+            left: 50, 
+            top: -50,
+            callback: function() {
+                alert(this.innerHTML);
+            }
+        },
+        {
+            // content: "设置",
+            class: 'icon icon-cog2',
+            scale: 1.5,
+            left: 100, 
+            top: 100,
+            callback: function() {
+                alert(this.innerHTML);
+            }
+        },
+        {
+            // content: "日志",
+            class: 'icon icon-file',
+            scale: 1.5,
+            left: 50, 
+            top: 100,
+            callback: function() {
+                alert(this.innerHTML);
+            }
+        },
+        {
+            // content: "图片",
+            class: 'icon icon-image2',
+            scale: 1.5,
+            left: 100, 
+            top: 50,
+            callback: function() {
+                alert(this.innerHTML);
+            }
+        },
+        {
+            // content: "信息",
+            class: 'icon icon-newspaper',
+            scale: 1.5,
+            left: 150, 
+            top: 150,
+            callback: function() {
+                alert(this.innerHTML);
+            }
+        },
+    ];
+
+    var opt = {
+        data: list,
+        dom: document.getElementById('iArcMenu-content'),
+        type: 'arc',
+        duration: 100,
+        durationOffset: 100,
+        rangeDegree: 360,
+        offsetDegree: 45,
+        diffDist: 60,
+        distance: 150,
+        diameter: 100,
+    };
+
+    var arcMenu = new iArcMenu(opt);
+
+    /* iArcMenu Demo JS */
+
+</script>
+</body>
+</html>

@@ -1,0 +1,54 @@
+/* Customized CSS 自定义 */
+
+#iArcMenu-content {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	max-height: 100%;
+	/*background-color: #eee;*/
+	margin: auto;
+	top: 0; 
+	left: 0; 
+	bottom: 0; 
+	right: 0;
+}
+
+.iArcMenu-shape {
+	margin: auto;
+	/*top: 0; */
+	left: 0; 
+	bottom: 0; 
+	right: 0;
+}
+
+.iArcMenu-control {
+	margin: auto;
+	/*top: 0; */
+	left: 0; 
+	bottom: 0; 
+	right: 0;
+}
+
+.iArcMenu-shape:nth-child(1) {
+	background-color: #e74c3c;
+}
+
+.iArcMenu-shape:nth-child(2) {
+	background-color: #3498db;
+}
+
+.iArcMenu-shape:nth-child(3) {
+	background-color: #e67e22;
+}
+
+.iArcMenu-shape:nth-child(4) {
+	background-color: #f1c40f;
+}
+
+.iArcMenu-shape:nth-child(5) {
+	background-color: #2ecc71;
+}
+
+.iArcMenu-shape:nth-child(6) {
+	background-color: #1abc9c;
+}
