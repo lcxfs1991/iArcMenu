@@ -83,7 +83,7 @@ HTML代码如下:
 		<td>Array of Content</td>
 		<td>菜单数据
 			如果没有背景图片，则可以通过content传入文字。
-			```
+			<pre>
 			{
 	            content: "用户",
 	            class: 'icon icon-home3',
@@ -92,7 +92,7 @@ HTML代码如下:
 	                alert(this.innerHTML);
 	            }
 	        },
-	        ```
+	        </pre>
 		</td>
 	</tr>
 	<tr>
