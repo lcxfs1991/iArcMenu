@@ -20,6 +20,8 @@
             // content: "用户",
             class: 'icon icon-home3',
             scale: 1.5,
+            left: -100, 
+            top: 0,
             callback: function() {
                 alert(this.innerHTML);
             }
@@ -28,8 +30,8 @@
             // content: "朋友",
             class: 'icon icon-facebook2',
             scale: 1.5,
-            left: 50, 
-            top: -50,
+            left: -100, 
+            top: -100,
             callback: function() {
                 alert(this.innerHTML);
             }
@@ -38,8 +40,8 @@
             // content: "设置",
             class: 'icon icon-cog2',
             scale: 1.5,
-            left: 100, 
-            top: 100,
+            left: 0, 
+            top: -100,
             callback: function() {
                 alert(this.innerHTML);
             }
@@ -48,8 +50,8 @@
             // content: "日志",
             class: 'icon icon-file',
             scale: 1.5,
-            left: 50, 
-            top: 100,
+            left: 100, 
+            top: -100,
             callback: function() {
                 alert(this.innerHTML);
             }
@@ -59,7 +61,7 @@
             class: 'icon icon-image2',
             scale: 1.5,
             left: 100, 
-            top: 50,
+            top: 0,
             callback: function() {
                 alert(this.innerHTML);
             }
@@ -68,8 +70,8 @@
             // content: "信息",
             class: 'icon icon-newspaper',
             scale: 1.5,
-            left: 150, 
-            top: 150,
+            left: 0, 
+            top: 100,
             callback: function() {
                 alert(this.innerHTML);
             }
@@ -79,9 +81,9 @@
     var opt = {
         data: list,
         dom: document.getElementById('iArcMenu-content'),
-        type: 'arc',
+        type: 'static',
         duration: 100,
-        // durationOffset: 100,
+        durationOffset: 100,
         rangeDegree: 360,
         offsetDegree: 90,
         distance: 150,

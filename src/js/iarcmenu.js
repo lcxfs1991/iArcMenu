@@ -31,6 +31,9 @@ iArcMenu.prototype._setting = function() {
 	// wrapper dom
 	this.dom = opt.dom;
 
+	//menu type
+	this.type = opt.type || 'arc';
+
 	// move distance
 	this.dist = opt.distance || 100;
 
@@ -53,8 +56,6 @@ iArcMenu.prototype._setting = function() {
 	this.radiusPI = 2 * Math.PI / 360;
 
 	this.duration = opt.duration || 1000;
-
-	this.type = opt.type || 'arc';
 
 	this.durationOffset = opt.durationOffset || 0;
 
