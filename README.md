@@ -12,14 +12,8 @@ iArcMenu是一个灵活易用的移动端弹出菜单组件，它具有如下特
 
 
 在你开始之前，请务必将src文件夹置于你项目文件夹下面，必调用里面的javascript和css文件。
-
-<pre>
-	<link rel="stylesheet" type="text/css" href="./src/css/common.css" />
-</pre>
-
-<pre>
-	<link rel="stylesheet" type="text/css" href="./src/js/iarcmenu.js" />
-</pre>
+	*common.css
+	*iarcmenu.js
 
 你需要为iArcMenu先新建好数据:
 
