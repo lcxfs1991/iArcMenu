@@ -10,7 +10,18 @@ iArcMenu是一个灵活易用的移动端弹出菜单组件，它具有如下特
 <h2 id="getting-started">开始部署iArcMenu</h2>
 部署iArcMenu最容易的办法是查阅我们提供的简易例子。大部份代码存放在demo文件夹的文件里面。*iArcMenu* 是必要新建的一个类。
 
-在你开始之前，你需要为iArcMenu先新建好数据:
+
+在你开始之前，请务必将src文件夹置于你项目文件夹下面，必调用里面的javascript和css文件。
+
+<pre>
+	<link rel="stylesheet" type="text/css" href="./src/css/common.css" />
+</pre>
+
+<pre>
+	<link rel="stylesheet" type="text/css" href="./src/js/iarcmenu.js" />
+</pre>
+
+你需要为iArcMenu先新建好数据:
 
 ``` javascript
 var list = [
@@ -39,7 +50,7 @@ var list = [
 
 HTML代码如下:
 	
-	<div id="iArcMenu-content"></div>
+<div id="iArcMenu-content"></div>
 
 要使其运行，按下面例子新建iArcMenu类: 
 
